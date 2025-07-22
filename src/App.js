@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col items-center py-8">
-      <h1 className="text-3xl font-bold mb-8 tracking-tight text-gray-900">雅思作文自动评分</h1>
+      <h1 className="text-3xl font-bold mb-8 tracking-tight text-gray-900">英语作文自动评分</h1>
       <div className="w-full max-w-6xl flex flex-col md:flex-row gap-8">
         {/* 左侧：表单区 */}
         <div className="flex-1">
