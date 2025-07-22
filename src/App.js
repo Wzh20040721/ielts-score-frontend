@@ -49,10 +49,16 @@ function App() {
             <div className="mb-2">
               <label className="font-medium">作文等级：</label>
               <select value={grade} onChange={e => setGrade(e.target.value)} className="border rounded p-1 ml-2">
+                <option value="ielts_task1">雅思Task1</option>
                 <option value="ielts_task2">雅思Task2</option>
                 <option value="cet4">CET4</option>
                 <option value="cet6">CET6</option>
-                <option value="toefl">TOEFL</option>
+                <option value="toefl_independent">托福-独立写作</option>
+                <option value="ttoefl_comprehensive">托福-综合写作</option>
+                <option value="graduate_b1">考研英语(一)大作文</option>
+                <option value="graduate_a1">考研英语(一)小作文</option>
+                <option value="graduate_a2">考研英语(二)小作文</option>
+                <option value="graduate_b2">考研英语(二)大作文</option>
               </select>
             </div>
             <div className="mb-2">
