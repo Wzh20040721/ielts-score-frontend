@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     setResult(null);
     try {
-      const resp = await fetch("http://localhost:8000/score", {
+      const resp = await fetch("https://ielts-score-backend.onrender.com/score", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
