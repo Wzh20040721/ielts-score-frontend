@@ -54,7 +54,7 @@ function App() {
                 <option value="cet4">CET4</option>
                 <option value="cet6">CET6</option>
                 <option value="toefl_independent">托福-独立写作</option>
-                <option value="ttoefl_comprehensive">托福-综合写作</option>
+                <option value="toefl_comprehensive">托福-综合写作</option>
                 <option value="graduate_b1">考研英语(一)大作文</option>
                 <option value="graduate_a1">考研英语(一)小作文</option>
                 <option value="graduate_a2">考研英语(二)小作文</option>
